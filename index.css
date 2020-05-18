@@ -17,11 +17,11 @@ html,body{
  min-height: 40px;
 }
 
-/* siction1 */
+/* section1 */
 
 #section1{
-    background-image: url(hero-bg.jpg);
-    
+    background-image: url("hero-bg.jpg"); 
+    /* we hadnt changed hero bg urls anywhere causing the problems in folders */
     background-repeat: no-repeat;
     background-size: cover;
 
